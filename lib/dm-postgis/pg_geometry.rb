@@ -1,5 +1,5 @@
 require 'dm-core'
-require 'geo_ruby'
+require 'georuby'
 module DataMapper
   class Property
     class PostGISGeometry < Object
