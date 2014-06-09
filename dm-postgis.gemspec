@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   ]
 
   dm_version = "~>1.2.0"
-  s.add_dependency "GeoRuby", "1.3.4"
+  s.add_dependency "georuby", "2.2.1"
   s.add_runtime_dependency "rake"
   s.add_runtime_dependency "dm-core", dm_version
   s.add_runtime_dependency "dm-postgres-adapter", dm_version
